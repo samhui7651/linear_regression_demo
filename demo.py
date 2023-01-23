@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn import linear_model
 import matplotlib.pyplot as plt
+from skleran import metrics 
 
 #read data
 dataframe = pd.read_fwf('brain_body.txt')
